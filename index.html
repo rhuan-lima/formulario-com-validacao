@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <title>Formulário com Validação</title>
+</head>
+
+<body>
+    <main>
+        <section class="container">
+
+            <div class="content">
+                <h1>FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h1>
+                <p>caso tenha ficado com qualquer dúvida <br> basta nos mandar uma mensagem e <br> entraremos em contato em menos de 24h.</p>
+            </div>
+
+            <div class="form-box">
+                <form action="" id="form" class="form">
+
+                    <div class="form-control">
+                        <input type="text" placeholder="Nome completo*" id="fullname"/>
+                        <small>campo obrigatório</small>
+                    </div>
+
+                    <div class="form-control">
+                        <input type="email" placeholder="E-mail*" id="email"/>
+                        <small>campo obrigatório</small>
+                    </div>
+
+                    <div class="form-control">
+                        <input type="tel" placeholder="Telefone*" id="phone"/>
+                        <small>campo obrigatório</small>
+                    </div class="form-control">
+
+                    <div class="form-control">
+                        <textarea class="text-area" id="message" placeholder="Mensagem*" cols="20" rows="5"></textarea>
+                        <small>campo obrigatório</small>
+                    </div>
+
+                    <div class="form-control">
+                        <p>*campos obrigatórios</p>
+                    </div>
+
+                    <div class="form-control">
+                        <button>Enviar</button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="src/js/validation.js"></script>
+</body>
+
+</html>

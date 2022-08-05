@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #E5E5E5;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: url('../images/background-repeat.png');
+    width: 800px;
+    height: 400px;
+}
+
+.content {
+    color: #FFFFFF;
+}
+
+.content h1 {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+.content p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.form-box {
+    width: 340px;
+    max-height: 100vh;
+    background-color: #FFFFFF;
+    padding: 19px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+	position: relative;
+    padding-bottom: 6px;
+    margin-bottom: 8px;
+}
+
+.form-control input {
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 8px;
+    display: block;
+    font-size: 15px;
+}
+
+.form-control.success input {
+	border-color: #00C22B;
+}
+
+.form-control.error input {
+	border-color: #F52E2E;
+}
+
+.form-control.success textarea {
+	border-color: #00C22B;
+}
+
+.form-control.error textarea {
+	border-color: #F52E2E;
+}
+
+.form-control small {
+	color: #F52E2E;
+    font-size: 8px;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form-control textarea {
+    display: block;
+    resize: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+} 
+
+.form-control p {
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 6px;
+}
+
+.form button {
+    background-color: #3CCC87;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px;
+    display: block;
+}
